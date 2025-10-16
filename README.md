@@ -7,6 +7,7 @@ API ini dibuat menggunakan **Laravel 12** dan **PostgreSQL** (melalui Supabase) 
 ```bash
 https://user-management-rigilz48-rigilzs-projects.vercel.app/
 
+https://www.postman.com/rigilid/workspace/workpublic/collection/9420449-b5169262-a472-47ad-960f-c03ad8747fbd?action=share&creator=9420449&active-environment=9420449-7ce8a3a0-7ba6-4541-b955-393d6c653a59
 ```
 
 ## 🚀 Cara Menjalankannya
