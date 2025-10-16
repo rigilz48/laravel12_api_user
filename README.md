@@ -2,7 +2,7 @@
 
 API ini dibuat menggunakan **Laravel 12** dan **PostgreSQL** (melalui Supabase) untuk mengelola data **User Management** secara terpusat dan berbasis REST API.
 
-## Deploy
+## Deploy & Link Postman
 
 ```bash
 https://user-management-rigilz48-rigilzs-projects.vercel.app/
