@@ -138,7 +138,6 @@ class User_ManagementController extends Controller
   {
     try {
       $user_management = User_Management::where('id_user', $id_user)->first();
-      // $deleted = $user_management->delete();
       // return response()->json(null, 204);
 
       if (!$user_management) {
@@ -146,7 +145,11 @@ class User_ManagementController extends Controller
           'success' => false,
           'message' => 'User Management Not Found',
         ], 404);
-      } else {
+      }
+
+      $deleted = $user_management->delete();
+
+      if ($deleted) {
         return response()->json([
           'success' => true,
           'message' => 'User Management Deleted',

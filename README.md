@@ -2,6 +2,13 @@
 
 API ini dibuat menggunakan **Laravel 12** dan **PostgreSQL** (melalui Supabase) untuk mengelola data **User Management** secara terpusat dan berbasis REST API.
 
+## Deploy
+
+```bash
+https://user-management-6jk6bsk83-rigilzs-projects.vercel.app/api/api/user_management
+
+```
+
 ## 🚀 Cara Menjalankannya
 
 ### 1. Clone Repository
@@ -26,7 +33,7 @@ Di dalam file .env terdapat **SESSION_DRIVER**
 Jalan Program di Lokal :
 SESSION_DRIVER=file
 
-Jalan Program di Deploy
+Jalan Program di Deploy : (opsional)
 SESSION_DRIVER=database
 
 ```
@@ -47,15 +54,25 @@ http://localhost:8000
 
 Gunakan **Postman** (karena saya menggunakan Postman) untuk menguji API.
 
-### Endpoint Utama
+### Endpoint Utama Lokal
 
-| Method   | Endpoint               | Deskripsi                              |
-| :------- | :--------------------- | :------------------------------------- |
-| `GET`    | `/api/users`           | Menampilkan semua user                 |
-| `GET`    | `/api/users/{id_user}` | Menampilkan detail user berdasarkan ID |
-| `POST`   | `/api/users`           | Menambahkan user baru                  |
-| `PUT`    | `/api/users/{id_user}` | Memperbarui data user                  |
-| `DELETE` | `/api/users/{id_user}` | Menghapus user                         |
+| Method   | Endpoint                         | Deskripsi                              |
+| :------- | :------------------------------- | :------------------------------------- |
+| `GET`    | `/api/user_management`           | Menampilkan semua user                 |
+| `GET`    | `/api/user_management/{id_user}` | Menampilkan detail user berdasarkan ID |
+| `POST`   | `/api/user_management`           | Menambahkan user baru                  |
+| `PUT`    | `/api/user_management/{id_user}` | Memperbarui data user                  |
+| `DELETE` | `/api/user_management/{id_user}` | Menghapus user                         |
+
+### Endpoint Utama Deploy
+
+| Method   | Endpoint                             | Deskripsi                              |
+| :------- | :----------------------------------- | :------------------------------------- |
+| `GET`    | `/api/api/user_management`           | Menampilkan semua user                 |
+| `GET`    | `/api/api/user_management/{id_user}` | Menampilkan detail user berdasarkan ID |
+| `POST`   | `/api/api/user_management`           | Menambahkan user baru                  |
+| `PUT`    | `/api/api/user_management/{id_user}` | Memperbarui data user                  |
+| `DELETE` | `/api/api/user_management/{id_user}` | Menghapus user                         |
 
 ### Contoh Response
 
