@@ -5,7 +5,7 @@ API ini dibuat menggunakan **Laravel 12** dan **PostgreSQL** (melalui Supabase) 
 ## Deploy
 
 ```bash
-https://user-management-6jk6bsk83-rigilzs-projects.vercel.app/api/api/user_management
+https://user-management-rigilz48-rigilzs-projects.vercel.app/
 
 ```
 
